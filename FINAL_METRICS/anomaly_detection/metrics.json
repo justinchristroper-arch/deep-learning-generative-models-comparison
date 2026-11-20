@@ -1,0 +1,114 @@
+{
+  "seed": 42,
+  "validation_normal_count": 7000,
+  "test_normal_count": 7000,
+  "test_anomaly_count": 7000,
+  "test_counts_by_type": {
+    "Occlusion": 2334,
+    "Speckle": 2333,
+    "Local shift": 2333
+  },
+  "score": "Mean pixelwise squared reconstruction error on the given input",
+  "defects": "7x7 foreground patch: intensity *0.15, signed speckle \u00b10.45, or 2px right shift with zero-fill",
+  "threshold_protocol": "Strictly above threshold; calibrated at 5% maximum FPR on clean validation only.",
+  "test_roc_protocol": "Largest empirical TPR among grouped test ROC points with FPR <= 5%; retrospective, not a calibrated detector.",
+  "plot_display": "Histogram display truncated at MSE 0.07. Metrics use all observations.",
+  "models": {
+    "AE": {
+      "auroc": 0.7732406428571429,
+      "auprc_average_precision": 0.700967627807214,
+      "test_tpr_at_test_fpr_at_most_5pct": 0.12642857142857142,
+      "validation_threshold": 0.02164338156580925,
+      "validation_fpr_at_threshold": 0.05,
+      "test_fpr_at_validation_threshold": 0.04557142857142857,
+      "test_tpr_at_validation_threshold": 0.11185714285714286,
+      "median_normal_mse": 0.0066662319004535675,
+      "median_anomaly_mse": 0.012579027563333511,
+      "epoch": 20,
+      "checkpoint_sha256": "5377fdaf070d0a40db37110ca40ee469f0bdb37d5a4a3161beb446ec6eae4a1b",
+      "by_type": {
+        "Occlusion": {
+          "auroc": 0.7372700712025723,
+          "auprc_average_precision": 0.6720128289024776,
+          "test_tpr_at_test_fpr_at_most_5pct": 0.1075407026563839,
+          "validation_threshold": 0.02164338156580925,
+          "validation_fpr_at_threshold": 0.05,
+          "test_fpr_at_validation_threshold": 0.04584404455869751,
+          "test_tpr_at_validation_threshold": 0.0972579263067695,
+          "median_normal_mse": 0.006579297129064798,
+          "median_anomaly_mse": 0.011492853984236717
+        },
+        "Speckle": {
+          "auroc": 0.8318242389289953,
+          "auprc_average_precision": 0.7470143062324135,
+          "test_tpr_at_test_fpr_at_most_5pct": 0.14873553364766395,
+          "validation_threshold": 0.02164338156580925,
+          "validation_fpr_at_threshold": 0.05,
+          "test_fpr_at_validation_threshold": 0.04414916416630947,
+          "test_tpr_at_validation_threshold": 0.12816116588084012,
+          "median_normal_mse": 0.006638418883085251,
+          "median_anomaly_mse": 0.013969175517559052
+        },
+        "Local shift": {
+          "auroc": 0.7502385222259723,
+          "auprc_average_precision": 0.6823362156834178,
+          "test_tpr_at_test_fpr_at_most_5pct": 0.11444492070295756,
+          "validation_threshold": 0.02164338156580925,
+          "validation_fpr_at_threshold": 0.05,
+          "test_fpr_at_validation_threshold": 0.046720960137162454,
+          "test_tpr_at_validation_threshold": 0.11015859408486926,
+          "median_normal_mse": 0.006759079173207283,
+          "median_anomaly_mse": 0.011937163770198822
+        }
+      }
+    },
+    "SparseAE": {
+      "auroc": 0.7706116122448979,
+      "auprc_average_precision": 0.6987992428863669,
+      "test_tpr_at_test_fpr_at_most_5pct": 0.12442857142857143,
+      "validation_threshold": 0.021325821056962013,
+      "validation_fpr_at_threshold": 0.05,
+      "test_fpr_at_validation_threshold": 0.048285714285714286,
+      "test_tpr_at_validation_threshold": 0.11657142857142858,
+      "median_normal_mse": 0.006628495175391436,
+      "median_anomaly_mse": 0.01244739443063736,
+      "epoch": 20,
+      "checkpoint_sha256": "3d662e5c707109d14e48247e0062744e379095f3e647779b600f27ad60a9c7c1",
+      "by_type": {
+        "Occlusion": {
+          "auroc": 0.7329420753086339,
+          "auprc_average_precision": 0.6696805813233542,
+          "test_tpr_at_test_fpr_at_most_5pct": 0.12082262210796915,
+          "validation_threshold": 0.021325821056962013,
+          "validation_fpr_at_threshold": 0.05,
+          "test_fpr_at_validation_threshold": 0.04712939160239932,
+          "test_tpr_at_validation_threshold": 0.10839760068551842,
+          "median_normal_mse": 0.006585124414414167,
+          "median_anomaly_mse": 0.011379417032003403
+        },
+        "Speckle": {
+          "auroc": 0.8299978191728694,
+          "auprc_average_precision": 0.7451825795416012,
+          "test_tpr_at_test_fpr_at_most_5pct": 0.14444920702957564,
+          "validation_threshold": 0.021325821056962013,
+          "validation_fpr_at_threshold": 0.05,
+          "test_fpr_at_validation_threshold": 0.04757822546078011,
+          "test_tpr_at_validation_threshold": 0.13116159451350193,
+          "median_normal_mse": 0.006614770274609327,
+          "median_anomaly_mse": 0.013891641050577164
+        },
+        "Local shift": {
+          "auroc": 0.7482789011497387,
+          "auprc_average_precision": 0.6798323181375836,
+          "test_tpr_at_test_fpr_at_most_5pct": 0.11015859408486926,
+          "validation_threshold": 0.021325821056962013,
+          "validation_fpr_at_threshold": 0.05,
+          "test_fpr_at_validation_threshold": 0.05015002143163309,
+          "test_tpr_at_validation_threshold": 0.11015859408486926,
+          "median_normal_mse": 0.006705888081341982,
+          "median_anomaly_mse": 0.011918564327061176
+        }
+      }
+    }
+  }
+}

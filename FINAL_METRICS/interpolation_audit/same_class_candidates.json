@@ -1,0 +1,35 @@
+{
+  "seed": 42,
+  "target_labels": [
+    3,
+    9
+  ],
+  "target_names": [
+    "Dress",
+    "Ankle boot"
+  ],
+  "candidates_per_model": 4096,
+  "labels_are_predictions": true,
+  "models": {
+    "GAN": {
+      "Dress": {
+        "predicted_count": 97,
+        "largest_softmax": 0.9696839451789856
+      },
+      "Ankle boot": {
+        "predicted_count": 67,
+        "largest_softmax": 0.9998509883880615
+      }
+    },
+    "DCGAN": {
+      "Dress": {
+        "predicted_count": 324,
+        "largest_softmax": 0.9996944665908813
+      },
+      "Ankle boot": {
+        "predicted_count": 406,
+        "largest_softmax": 0.9999998807907104
+      }
+    }
+  }
+}

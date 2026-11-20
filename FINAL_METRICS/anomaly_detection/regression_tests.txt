@@ -1,0 +1,18 @@
+test_defects_are_seeded_local_and_preserve_clean_inputs (test_anomaly.AnomalyTests) ... ok
+test_perfect_and_tied_scores (test_anomaly.AnomalyTests) ... ok
+test_dcgan_is_fully_convolutional (test_checks.Checks) ... ok
+test_decoder_learning_preserves_classifier (test_checks.Checks) ... ok
+test_diffusion_visits_every_timestep (test_checks.Checks) ... ok
+test_split_membership_and_order (test_checks.Checks) ... ok
+test_ssim_identity (test_checks.Checks) ... ok
+test_transpose_orientation (test_checks.Checks) ... ok
+test_vae_eval_uses_posterior_mean (test_checks.Checks) ... ok
+test_all_six_losses_have_finite_nonzero_gradients (test_full_benchmark.FullBenchmarkChecks) ... ok
+matplotlib/cbook.py:684: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  x = np.array(x, subok=True, copy=copy)
+ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.685s
+
+OK

@@ -49,3 +49,17 @@ python render_final_figures.py --run runs/published/full_budget --proof runs/pub
 Lihat `FINAL_METRICS/environment.json` untuk perangkat dan versi asli. Anggaran waktu dapat mengubah jumlah epoch pada perangkat lain. Empat model mencapai batas 20 epoch, sehingga konvergensi belum ditetapkan. FID memakai Inception-v3 2.048 fitur dengan kanal abu-abu disalin ke RGB. Perbandingan menggunakan satu seed dan estimasi FID berukuran sampel terbatas.
 
 AI membantu pengembangan kode PyTorch, debugging, pelaksanaan eksperimen, serta draf analisis dan laporan. Bantuan tersebut melampaui batas referensi sintaks dan dokumentasi dalam panduan tugas.
+
+## Uji tambahan untuk Q6 dan Figur 4
+
+Uji anomali memakai 7.000 citra uji bersih dan 7.000 salinan bercacat lokal. AUROC Vanilla AE/Sparse AE adalah 0,773/0,771, AUPRC (average precision) 0,701/0,699, dan sensitivitas pada FPR uji ≤5% 12,64%/12,44%. Pada ambang yang dikalibrasi dengan 7.000 citra validasi bersih, sensitivitas uji adalah 11,19%/11,66% dengan FPR uji 4,56%/4,83%. Cacat sintetis ini mengilustrasikan sensitivitas skor MSE rekonstruksi. Validasi manufaktur masih memerlukan data produksi. [Metrik, distribusi skor dan tes](FINAL_METRICS/anomaly_detection/)
+
+Pemeriksaan Figur 4 mencari pasangan prediksi gaun dan sepatu bot pada 4.096 vektor laten per generator. Kandidat sepatu bot Vanilla GAN sulit dikenali meski classifier memberikan probabilitas tinggi. Figur awal dipertahankan sebagai ilustrasi lintasan per model. [Bukti pencarian kandidat](FINAL_METRICS/interpolation_audit/)
+
+Dari `FINAL_SOURCE_CODE`, jalankan perintah berikut setelah menyiapkan Fashion-MNIST.
+
+```sh
+python evaluate_anomaly.py --data data --out runs/anomaly_replay
+python audit_interpolation_endpoints.py --out runs/interpolation_audit_replay
+python -m unittest discover -v
+```
