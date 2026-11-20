@@ -1,0 +1,110 @@
+{
+  "models": {
+    "MLP": {
+      "test_accuracy": 0.03125,
+      "mean_training_seconds_per_epoch": 0.030404799999814713,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 0.6993999995756894
+    },
+    "AE": {
+      "mse": 0.08401289582252502,
+      "psnr_db": 10.756540454297777,
+      "ssim": 0.011966506019234657,
+      "test_latent_fraction_abs_below_0_001": 0.7734375,
+      "mean_training_seconds_per_epoch": 0.027433299999756855,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 0.7007999993220437
+    },
+    "SparseAE": {
+      "mse": 0.0840008556842804,
+      "psnr_db": 10.757162899253988,
+      "ssim": 0.010421193204820156,
+      "test_latent_fraction_abs_below_0_001": 0.8994140625,
+      "mean_training_seconds_per_epoch": 0.013267000000269036,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 1.67669999973441
+    },
+    "VAE": {
+      "mse": 0.08401709794998169,
+      "psnr_db": 10.756323235844562,
+      "ssim": 0.011209167540073395,
+      "mean_training_seconds_per_epoch": 0.019151700000293204,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 0.5074000000604428,
+      "fid": null
+    },
+    "GAN": {
+      "mean_training_seconds_per_epoch": 0.023647399999390473,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 0.9588999982952373,
+      "fid": null
+    },
+    "DCGAN": {
+      "mean_training_seconds_per_epoch": 0.5909283000000869,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 15.062500000567525,
+      "fid": null
+    },
+    "DDPM": {
+      "mean_training_seconds_per_epoch": 0.7353573000000324,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 454.41000000028,
+      "fid": null
+    },
+    "LatentDecoder": {
+      "mse": 0.08404217660427094,
+      "psnr_db": 10.755027083486281,
+      "ssim": 0.012216008268296719,
+      "mean_training_seconds_per_epoch": 0.017426399999749265,
+      "train_loss_sd": null,
+      "median_inference_ms_batch64": 0.5827999993925914
+    },
+    "TransposeClass": {
+      "mse": 0.0838635042309761,
+      "psnr_db": 10.764269945871106,
+      "ssim": 0.011373210698366165
+    },
+    "TransposeLatent": {
+      "mse": 0.08384311199188232,
+      "psnr_db": 10.765326104197497,
+      "ssim": 0.012279520742595196
+    }
+  },
+  "fid_requested_count": 0,
+  "fid_status": "Disabled for this run",
+  "interpolation_image_ids": [
+    304,
+    218
+  ],
+  "interpolation_labels": [
+    5,
+    8
+  ],
+  "transpose_diagnostics": {
+    "W1": {
+      "shape": [
+        256,
+        784
+      ],
+      "rank": 256,
+      "input_gram_frobenius_error": 25.505999578806563
+    },
+    "W2": {
+      "shape": [
+        64,
+        256
+      ],
+      "rank": 64,
+      "input_gram_frobenius_error": 14.902869610366448
+    },
+    "W3": {
+      "shape": [
+        10,
+        64
+      ],
+      "rank": 10,
+      "input_gram_frobenius_error": 7.651878418822953
+    }
+  },
+  "evaluation_seed": 42
+}

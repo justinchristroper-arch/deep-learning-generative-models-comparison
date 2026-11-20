@@ -1,0 +1,42 @@
+{
+  "mode": "full",
+  "dataset": "Fashion-MNIST",
+  "seed": 42,
+  "batch_size": 128,
+  "epochs": 30,
+  "ddpm_steps": 1000,
+  "device": "cpu",
+  "hardware": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python": "3.10.9",
+  "torch": "2.14.1+cpu",
+  "counts": {
+    "train": 56000,
+    "validation": 7000,
+    "test": 7000
+  },
+  "status": "complete",
+  "classifier_hidden": [
+    256,
+    64
+  ],
+  "latent_dim": 64,
+  "dcgan_noise_dim": 100,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "adversarial_lr": 0.0002,
+  "adversarial_betas": [
+    0.5,
+    0.999
+  ],
+  "sparse_l1_weight": 0.001,
+  "vae_kl_weight": 1,
+  "ddpm_beta_range": [
+    0.0001,
+    0.02
+  ],
+  "evaluation_seed": 42,
+  "requested_fid_count": 0,
+  "classifier_only": true,
+  "cpu_threads": 2
+}

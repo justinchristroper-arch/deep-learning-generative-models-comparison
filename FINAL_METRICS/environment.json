@@ -1,0 +1,34 @@
+{
+  "python": "3.10.9",
+  "os": "Windows 10.0.26300",
+  "seed": 42,
+  "training_cpu": {
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "torch": "2.14.1+cpu",
+    "models": ["AE", "SparseAE", "VAE", "GAN", "MLP", "LatentDecoder"]
+  },
+  "cuda_training_and_evaluation": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_mib": 8188,
+    "driver": "573.22",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "gpu_trained_models": ["DCGAN", "DDPM"],
+    "inference_and_fid_threads": 2
+  },
+  "verified_package_versions": {
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "scipy": "1.15.3",
+    "Pillow": "12.3.0",
+    "torchmetrics": "1.6.3",
+    "torch-fidelity": "0.3.0",
+    "lightning-utilities": "0.15.3",
+    "tqdm": "4.70.1"
+  },
+  "fid_weights": {
+    "file": "weights-inception-2015-12-05-6726825d.pth",
+    "sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2",
+    "source": "https://github.com/toshas/torch-fidelity/releases/download/v0.2.0/weights-inception-2015-12-05-6726825d.pth"
+  }
+}

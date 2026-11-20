@@ -1,0 +1,72 @@
+{
+  "models": {
+    "TransposeClass": {
+      "mse": 0.15635139424460276,
+      "psnr_db": 8.058982416353901,
+      "ssim": 0.0866549574307033
+    },
+    "TransposeLatent": {
+      "mse": 0.28013711030142646,
+      "psnr_db": 5.526293555406858,
+      "ssim": 0.06865106650761195
+    },
+    "LatentDecoder": {
+      "mse": 0.01670690301486424,
+      "psnr_db": 17.77104048503378,
+      "ssim": 0.6002339739118303
+    },
+    "AE": {
+      "mse": 0.008525656427655902,
+      "psnr_db": 20.692721728124674,
+      "ssim": 0.736150080544608
+    }
+  },
+  "classifier_test_accuracy": 0.8875714286395482,
+  "transpose_diagnostics": {
+    "W1": {
+      "shape": [
+        256,
+        784
+      ],
+      "rank": 256,
+      "input_gram_frobenius_error": 333.96237964660577
+    },
+    "W2": {
+      "shape": [
+        64,
+        256
+      ],
+      "rank": 64,
+      "input_gram_frobenius_error": 49.47900731050685
+    },
+    "W3": {
+      "shape": [
+        10,
+        64
+      ],
+      "rank": 10,
+      "input_gram_frobenius_error": 10.385497344810243
+    }
+  },
+  "figure_test_indices": [
+    29848,
+    11863,
+    24237,
+    16350,
+    28205,
+    30228,
+    32881,
+    23314
+  ],
+  "figure_test_labels": [
+    3,
+    0,
+    0,
+    9,
+    8,
+    1,
+    6,
+    0
+  ],
+  "n_test": 7000
+}

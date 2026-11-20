@@ -1,0 +1,15 @@
+test_dcgan_is_fully_convolutional (test_checks.Checks) ... ok
+test_decoder_learning_preserves_classifier (test_checks.Checks) ... ok
+test_diffusion_visits_every_timestep (test_checks.Checks) ... ok
+test_split_membership_and_order (test_checks.Checks) ... ok
+test_ssim_identity (test_checks.Checks) ... ok
+test_transpose_orientation (test_checks.Checks) ... ok
+test_vae_eval_uses_posterior_mean (test_checks.Checks) ... ok
+test_all_six_losses_have_finite_nonzero_gradients (test_full_benchmark.FullBenchmarkChecks) ... ok
+  x = np.array(x, subok=True, copy=copy)
+ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 10.399s
+
+OK

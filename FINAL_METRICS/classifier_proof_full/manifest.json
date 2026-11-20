@@ -1,0 +1,25 @@
+{
+  "mode": "full",
+  "dataset": "Fashion-MNIST",
+  "device": "cpu",
+  "seed": 42,
+  "epochs": 30,
+  "batch_size": 128,
+  "lr": 0.001,
+  "cpu_threads": 2,
+  "torch": "2.14.1+cpu",
+  "counts": {
+    "train": 56000,
+    "validation": 7000,
+    "test": 7000
+  },
+  "classifier_source": "classifier_full",
+  "classifier_selected_epoch": 14,
+  "classifier_test_accuracy": 0.8875714286395482,
+  "classifier_sha256_before_decoder": "1195569ed137866040c401c120e9dd5274c5bd01a1094786a606d5e19ab3f894",
+  "indices_verified": true,
+  "status": "complete",
+  "AE_selected_epoch": 30,
+  "LatentDecoder_selected_epoch": 30,
+  "classifier_sha256_after_decoder": "1195569ed137866040c401c120e9dd5274c5bd01a1094786a606d5e19ab3f894"
+}

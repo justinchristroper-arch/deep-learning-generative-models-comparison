@@ -1,0 +1,73 @@
+{
+  "models": {
+    "TransposeClass": {
+      "mse": 0.15635139412486126,
+      "ssim": 0.08665495767901042,
+      "psnr_db": 8.05898241967994
+    },
+    "TransposeLatent": {
+      "mse": 0.28013711186391965,
+      "ssim": 0.0686510669394008,
+      "psnr_db": 5.526293531183643
+    },
+    "LatentDecoder": {
+      "mse": 0.016706902951068643,
+      "ssim": 0.600233970125605,
+      "psnr_db": 17.77104050161739
+    },
+    "AE": {
+      "mse": 0.008525656427739055,
+      "ssim": 0.736150069114353,
+      "psnr_db": 20.692721728082315
+    }
+  },
+  "classifier_correct": 6213,
+  "n_test": 7000,
+  "classifier_accuracy": 0.8875714285714286,
+  "classifier_sha256": "692ad08ee00c1cfbd733f18d7b0a5a238f665beff41744c8dd8219a626483b39",
+  "checkpoints": {
+    "AE": {
+      "sha256": "7205294a7c9a1c8444b87ed955689f5d248773f06f90e48edb03df55cae724b0",
+      "epoch": 30
+    },
+    "LatentDecoder": {
+      "sha256": "5f1256a13499c97dd327c38b5745e96b705176d5a4833f8ce2e63f9524c313d6",
+      "epoch": 30
+    }
+  },
+  "figure_indices": [
+    29848,
+    11863,
+    24237,
+    16350,
+    28205,
+    30228,
+    32881,
+    23314
+  ],
+  "moment_verification_max_abs": {
+    "train": {
+      "mean": 4.76837158203125e-07,
+      "std": 2.384185791015625e-07
+    },
+    "test": {
+      "mean": 2.384185791015625e-07,
+      "std": 7.450580596923828e-09
+    }
+  },
+  "prior_support_check": {
+    "train": {
+      "n": 1024,
+      "fraction_negative": 0.1912078857421875,
+      "examples_with_negative": 1024,
+      "empirical_negatives": 0
+    },
+    "test": {
+      "n": 1024,
+      "fraction_negative": 0.191864013671875,
+      "examples_with_negative": 1024,
+      "empirical_negatives": 0
+    }
+  },
+  "prior_rows": "Same seed and noise; unpaired alternate samples using diagonal Gaussian moments. Test moments use held-out information."
+}

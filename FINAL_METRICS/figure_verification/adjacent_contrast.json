@@ -1,0 +1,23 @@
+{
+  "checkpoints": {
+    "AE": {
+      "sha256": "5377fdaf070d0a40db37110ca40ee469f0bdb37d5a4a3161beb446ec6eae4a1b",
+      "epoch": 20
+    },
+    "SparseAE": {
+      "sha256": "3d662e5c707109d14e48247e0062744e379095f3e647779b600f27ad60a9c7c1",
+      "epoch": 20
+    },
+    "VAE": {
+      "sha256": "3b4e16820a797a7df2d1225d68bdca46fab5ca9457b31475d5392caa5026f56b",
+      "epoch": 16
+    }
+  },
+  "heldout_mean_adjacent_contrast": {
+    "Citra uji": 0.0782684417587838,
+    "AE": 0.061986670809797945,
+    "SparseAE": 0.061227341864125005,
+    "VAE": 0.051340710250660775
+  },
+  "n": 7000
+}

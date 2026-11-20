@@ -1,0 +1,44 @@
+{
+  "mode": "smoke",
+  "dataset": "synthetic random noise",
+  "seed": 42,
+  "batch_size": 128,
+  "epochs": 1,
+  "ddpm_steps": 8,
+  "device": "cpu",
+  "hardware": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python": "3.10.9",
+  "torch": "2.14.1+cpu",
+  "counts": {
+    "train": 256,
+    "validation": 32,
+    "test": 32
+  },
+  "status": "complete",
+  "classifier_hidden": [
+    256,
+    64
+  ],
+  "latent_dim": 64,
+  "dcgan_noise_dim": 100,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "adversarial_lr": 0.0002,
+  "adversarial_betas": [
+    0.5,
+    0.999
+  ],
+  "sparse_l1_weight": 0.001,
+  "vae_kl_weight": 1,
+  "ddpm_beta_range": [
+    0.0001,
+    0.02
+  ],
+  "evaluation_seed": 42,
+  "requested_fid_count": 0,
+  "classifier_only": false,
+  "cpu_threads": 2,
+  "classifier_sha256_before_decoder": "c0e7759d6b95d517bd860424b538276dfff51065cd257f8194e61fe3d2bebcc6",
+  "classifier_sha256_after_decoder": "c0e7759d6b95d517bd860424b538276dfff51065cd257f8194e61fe3d2bebcc6"
+}

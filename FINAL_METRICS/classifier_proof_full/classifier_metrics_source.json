@@ -1,0 +1,7 @@
+{
+  "test_accuracy": 0.8875714286395482,
+  "test_cross_entropy": 0.31426911664009094,
+  "accuracy_target": 0.88,
+  "target_met": true,
+  "selected_epoch": 14
+}

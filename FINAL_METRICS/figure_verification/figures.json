@@ -1,0 +1,255 @@
+{
+  "seed": 42,
+  "checkpoints": {
+    "AE": {
+      "sha256": "5377fdaf070d0a40db37110ca40ee469f0bdb37d5a4a3161beb446ec6eae4a1b",
+      "epoch": 20
+    },
+    "SparseAE": {
+      "sha256": "3d662e5c707109d14e48247e0062744e379095f3e647779b600f27ad60a9c7c1",
+      "epoch": 20
+    },
+    "VAE": {
+      "sha256": "3b4e16820a797a7df2d1225d68bdca46fab5ca9457b31475d5392caa5026f56b",
+      "epoch": 16
+    },
+    "GAN": {
+      "sha256": "a45b2efbe5b7f815b8d23892b3470912a4cdb53366fec076e141b22698181b76",
+      "epoch": 5
+    },
+    "DCGAN": {
+      "sha256": "581c3d3f6cd43b7140d4a8764648031bfd899dc2d44bc602ff4764d6b42f09ce",
+      "epoch": 20
+    },
+    "DDPM": {
+      "sha256": "25bd673779f95ad54b50254fef35666e50ccae7729b973fecd8851fb6e8000e6",
+      "epoch": 19
+    }
+  },
+  "real_ids": [
+    29848,
+    11863,
+    24237,
+    16350,
+    28205,
+    30228,
+    32881,
+    23314,
+    51112,
+    22377,
+    36004,
+    38234,
+    67242,
+    14071,
+    29690,
+    34406
+  ],
+  "real_labels": [
+    3,
+    0,
+    0,
+    9,
+    8,
+    1,
+    6,
+    0,
+    3,
+    5,
+    3,
+    3,
+    7,
+    5,
+    1,
+    1
+  ],
+  "interpolation_source_ids": [
+    29848,
+    16350
+  ],
+  "interpolation_source_labels": [
+    3,
+    9
+  ],
+  "generated_endpoints": {
+    "GAN": {
+      "pool_size": 256,
+      "n_predicted_classes": 7,
+      "endpoint_ids": [
+        191,
+        154
+      ],
+      "predicted_labels": [
+        8,
+        0
+      ],
+      "predicted_names": [
+        "Bag",
+        "T-shirt"
+      ],
+      "confidences": [
+        0.9999995231628418,
+        0.999861478805542
+      ],
+      "distinct": true,
+      "selection": "Maximum softmax, then maximum softmax from a different predicted class when available"
+    },
+    "DCGAN": {
+      "pool_size": 256,
+      "n_predicted_classes": 10,
+      "endpoint_ids": [
+        45,
+        53
+      ],
+      "predicted_labels": [
+        5,
+        1
+      ],
+      "predicted_names": [
+        "Sandal",
+        "Trouser"
+      ],
+      "confidences": [
+        1.0,
+        1.0
+      ],
+      "distinct": true,
+      "selection": "Maximum softmax, then maximum softmax from a different predicted class when available"
+    }
+  },
+  "panel_predictions": {
+    "Citra uji": [
+      3,
+      0,
+      6,
+      5,
+      8,
+      1,
+      2,
+      0,
+      3,
+      5,
+      3,
+      3,
+      7,
+      5,
+      1,
+      1
+    ],
+    "VAE": [
+      3,
+      0,
+      5,
+      3,
+      7,
+      7,
+      7,
+      5,
+      6,
+      1,
+      1,
+      8,
+      0,
+      5,
+      7,
+      7
+    ],
+    "GAN": [
+      4,
+      8,
+      4,
+      3,
+      6,
+      6,
+      4,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      6,
+      0,
+      2
+    ],
+    "DCGAN": [
+      8,
+      0,
+      7,
+      4,
+      7,
+      8,
+      0,
+      4,
+      8,
+      9,
+      5,
+      4,
+      9,
+      9,
+      1,
+      6
+    ],
+    "DDPM": [
+      6,
+      5,
+      5,
+      5,
+      3,
+      6,
+      0,
+      8,
+      8,
+      5,
+      3,
+      3,
+      6,
+      6,
+      6,
+      0
+    ]
+  },
+  "heldout_mean_adjacent_contrast": {
+    "Citra uji": 0.0782684417587838,
+    "AE": 0.061986670880312365,
+    "SparseAE": 0.06122734177791114,
+    "VAE": 0.05134071028485362
+  },
+  "n_heldout": 7000,
+  "interpolation_adjacent_rmse": {
+    "AE": [
+      0.09928305447101593,
+      0.10482039302587509,
+      0.10422904044389725,
+      0.13410253822803497,
+      0.1301160305738449
+    ],
+    "SparseAE": [
+      0.08253804594278336,
+      0.09399688243865967,
+      0.10969017446041107,
+      0.12972664833068848,
+      0.1216377541422844
+    ],
+    "VAE": [
+      0.04642770066857338,
+      0.05886682868003845,
+      0.08172602206468582,
+      0.179096519947052,
+      0.18426166474819183
+    ],
+    "GAN": [
+      0.0809280201792717,
+      0.08009989559650421,
+      0.07632200419902802,
+      0.06196089833974838,
+      0.05333605036139488
+    ],
+    "DCGAN": [
+      0.16324201226234436,
+      0.24973668158054352,
+      0.2058844417333603,
+      0.1463758796453476,
+      0.09465935826301575
+    ]
+  }
+}

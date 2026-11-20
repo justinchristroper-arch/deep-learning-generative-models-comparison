@@ -1,0 +1,662 @@
+[
+  {
+    "model": "AE",
+    "epoch": 1,
+    "train": {
+      "loss": 0.03515225095621177
+    },
+    "validation": {
+      "loss": 0.02027739369230611
+    },
+    "seconds": 11.074086600001465
+  },
+  {
+    "model": "AE",
+    "epoch": 2,
+    "train": {
+      "loss": 0.018101397639938763
+    },
+    "validation": {
+      "loss": 0.017018390649131365
+    },
+    "seconds": 15.089656899999682
+  },
+  {
+    "model": "AE",
+    "epoch": 3,
+    "train": {
+      "loss": 0.01559335516925369
+    },
+    "validation": {
+      "loss": 0.014874631508120469
+    },
+    "seconds": 17.865060699999958
+  },
+  {
+    "model": "AE",
+    "epoch": 4,
+    "train": {
+      "loss": 0.014022544531949928
+    },
+    "validation": {
+      "loss": 0.013580976883215563
+    },
+    "seconds": 18.521940200000245
+  },
+  {
+    "model": "AE",
+    "epoch": 5,
+    "train": {
+      "loss": 0.012919150414211409
+    },
+    "validation": {
+      "loss": 0.012740303953843457
+    },
+    "seconds": 20.947261700001036
+  },
+  {
+    "model": "AE",
+    "epoch": 6,
+    "train": {
+      "loss": 0.012138909366514001
+    },
+    "validation": {
+      "loss": 0.01220449322355645
+    },
+    "seconds": 21.45271810000122
+  },
+  {
+    "model": "AE",
+    "epoch": 7,
+    "train": {
+      "loss": 0.011558450846799783
+    },
+    "validation": {
+      "loss": 0.011559800374720777
+    },
+    "seconds": 27.593346999999994
+  },
+  {
+    "model": "AE",
+    "epoch": 8,
+    "train": {
+      "loss": 0.011095639237335751
+    },
+    "validation": {
+      "loss": 0.011151699109801225
+    },
+    "seconds": 28.80466779999915
+  },
+  {
+    "model": "AE",
+    "epoch": 9,
+    "train": {
+      "loss": 0.010704099985105651
+    },
+    "validation": {
+      "loss": 0.01075508412612336
+    },
+    "seconds": 28.05293299999903
+  },
+  {
+    "model": "AE",
+    "epoch": 10,
+    "train": {
+      "loss": 0.010378622945930277
+    },
+    "validation": {
+      "loss": 0.010613291740417481
+    },
+    "seconds": 28.644500500000504
+  },
+  {
+    "model": "AE",
+    "epoch": 11,
+    "train": {
+      "loss": 0.010106029130518437
+    },
+    "validation": {
+      "loss": 0.010210262494427818
+    },
+    "seconds": 28.922821500000282
+  },
+  {
+    "model": "AE",
+    "epoch": 12,
+    "train": {
+      "loss": 0.009858441829681397
+    },
+    "validation": {
+      "loss": 0.010073298873645919
+    },
+    "seconds": 27.649120800000674
+  },
+  {
+    "model": "AE",
+    "epoch": 13,
+    "train": {
+      "loss": 0.009672089632068361
+    },
+    "validation": {
+      "loss": 0.009837379137320178
+    },
+    "seconds": 29.355418400000417
+  },
+  {
+    "model": "AE",
+    "epoch": 14,
+    "train": {
+      "loss": 0.009488024433808667
+    },
+    "validation": {
+      "loss": 0.0096035342205848
+    },
+    "seconds": 27.933978499999284
+  },
+  {
+    "model": "AE",
+    "epoch": 15,
+    "train": {
+      "loss": 0.00932438073200839
+    },
+    "validation": {
+      "loss": 0.009519559894289289
+    },
+    "seconds": 27.347164100001464
+  },
+  {
+    "model": "AE",
+    "epoch": 16,
+    "train": {
+      "loss": 0.00920721462475402
+    },
+    "validation": {
+      "loss": 0.009584126451185771
+    },
+    "seconds": 12.745596099999602
+  },
+  {
+    "model": "AE",
+    "epoch": 17,
+    "train": {
+      "loss": 0.009087610354380948
+    },
+    "validation": {
+      "loss": 0.009333789556154184
+    },
+    "seconds": 8.310425199999372
+  },
+  {
+    "model": "AE",
+    "epoch": 18,
+    "train": {
+      "loss": 0.00898944228036063
+    },
+    "validation": {
+      "loss": 0.00924102715189968
+    },
+    "seconds": 8.754296000000977
+  },
+  {
+    "model": "AE",
+    "epoch": 19,
+    "train": {
+      "loss": 0.008898768639990262
+    },
+    "validation": {
+      "loss": 0.009204298547336034
+    },
+    "seconds": 8.478673800000252
+  },
+  {
+    "model": "AE",
+    "epoch": 20,
+    "train": {
+      "loss": 0.008815315829856054
+    },
+    "validation": {
+      "loss": 0.009027375765144825
+    },
+    "seconds": 6.9688397999998415
+  },
+  {
+    "model": "AE",
+    "epoch": 21,
+    "train": {
+      "loss": 0.00873808057819094
+    },
+    "validation": {
+      "loss": 0.008978006914258003
+    },
+    "seconds": 9.753444599999057
+  },
+  {
+    "model": "AE",
+    "epoch": 22,
+    "train": {
+      "loss": 0.008669186683637755
+    },
+    "validation": {
+      "loss": 0.00900194547963994
+    },
+    "seconds": 7.144934699999794
+  },
+  {
+    "model": "AE",
+    "epoch": 23,
+    "train": {
+      "loss": 0.008599239790013858
+    },
+    "validation": {
+      "loss": 0.008876799653151206
+    },
+    "seconds": 6.033218399999896
+  },
+  {
+    "model": "AE",
+    "epoch": 24,
+    "train": {
+      "loss": 0.008546910835163934
+    },
+    "validation": {
+      "loss": 0.00887612611268248
+    },
+    "seconds": 7.385470000001078
+  },
+  {
+    "model": "AE",
+    "epoch": 25,
+    "train": {
+      "loss": 0.008498028458229133
+    },
+    "validation": {
+      "loss": 0.008849833292620523
+    },
+    "seconds": 7.290522699999201
+  },
+  {
+    "model": "AE",
+    "epoch": 26,
+    "train": {
+      "loss": 0.008443255150956766
+    },
+    "validation": {
+      "loss": 0.008746476072285856
+    },
+    "seconds": 10.566506799999843
+  },
+  {
+    "model": "AE",
+    "epoch": 27,
+    "train": {
+      "loss": 0.008395220482988018
+    },
+    "validation": {
+      "loss": 0.008810985319848572
+    },
+    "seconds": 8.035547800000131
+  },
+  {
+    "model": "AE",
+    "epoch": 28,
+    "train": {
+      "loss": 0.008357059168496302
+    },
+    "validation": {
+      "loss": 0.008721689871911492
+    },
+    "seconds": 10.127132999999958
+  },
+  {
+    "model": "AE",
+    "epoch": 29,
+    "train": {
+      "loss": 0.00832414950643267
+    },
+    "validation": {
+      "loss": 0.008729969199746846
+    },
+    "seconds": 13.323320900000908
+  },
+  {
+    "model": "AE",
+    "epoch": 30,
+    "train": {
+      "loss": 0.008278956579310553
+    },
+    "validation": {
+      "loss": 0.008590443015630757
+    },
+    "seconds": 8.062253699999928
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 1,
+    "train": {
+      "loss": 0.036270179090755326
+    },
+    "validation": {
+      "loss": 0.026599130059991562
+    },
+    "seconds": 5.7510189000004175
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 2,
+    "train": {
+      "loss": 0.024416135266423226
+    },
+    "validation": {
+      "loss": 0.023293742663093975
+    },
+    "seconds": 8.335141100000328
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 3,
+    "train": {
+      "loss": 0.02207543671769755
+    },
+    "validation": {
+      "loss": 0.021637463282261574
+    },
+    "seconds": 7.863475500000277
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 4,
+    "train": {
+      "loss": 0.02086584459883826
+    },
+    "validation": {
+      "loss": 0.020741077863744326
+    },
+    "seconds": 7.9473665000004985
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 5,
+    "train": {
+      "loss": 0.020119641080498695
+    },
+    "validation": {
+      "loss": 0.020115611881017684
+    },
+    "seconds": 6.9849276000004465
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 6,
+    "train": {
+      "loss": 0.01955101496406964
+    },
+    "validation": {
+      "loss": 0.0196516978847129
+    },
+    "seconds": 8.033265500000198
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 7,
+    "train": {
+      "loss": 0.01913979666999408
+    },
+    "validation": {
+      "loss": 0.01926073038152286
+    },
+    "seconds": 8.208177700000306
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 8,
+    "train": {
+      "loss": 0.018772252923675944
+    },
+    "validation": {
+      "loss": 0.018957488294158664
+    },
+    "seconds": 7.899096700000882
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 9,
+    "train": {
+      "loss": 0.0184691140545266
+    },
+    "validation": {
+      "loss": 0.01884689498586314
+    },
+    "seconds": 7.742562800000087
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 10,
+    "train": {
+      "loss": 0.018229349406702178
+    },
+    "validation": {
+      "loss": 0.018505734284009253
+    },
+    "seconds": 8.016147000000274
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 11,
+    "train": {
+      "loss": 0.018029296909059796
+    },
+    "validation": {
+      "loss": 0.01843889097230775
+    },
+    "seconds": 8.094426999999996
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 12,
+    "train": {
+      "loss": 0.017837313260350908
+    },
+    "validation": {
+      "loss": 0.01846265815624169
+    },
+    "seconds": 6.6537200000002485
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 13,
+    "train": {
+      "loss": 0.01769602133120809
+    },
+    "validation": {
+      "loss": 0.01807083173734801
+    },
+    "seconds": 4.968852400001197
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 14,
+    "train": {
+      "loss": 0.01753011376091412
+    },
+    "validation": {
+      "loss": 0.018045259094664028
+    },
+    "seconds": 4.798139599999558
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 15,
+    "train": {
+      "loss": 0.017386795018400465
+    },
+    "validation": {
+      "loss": 0.017887458728892462
+    },
+    "seconds": 4.264842799999315
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 16,
+    "train": {
+      "loss": 0.017243741195116725
+    },
+    "validation": {
+      "loss": 0.017667635340775763
+    },
+    "seconds": 6.0520212999999785
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 17,
+    "train": {
+      "loss": 0.017135387897491455
+    },
+    "validation": {
+      "loss": 0.017784444206527302
+    },
+    "seconds": 5.035754799999268
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 18,
+    "train": {
+      "loss": 0.01706616229244641
+    },
+    "validation": {
+      "loss": 0.017674591190048626
+    },
+    "seconds": 5.727874000000156
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 19,
+    "train": {
+      "loss": 0.016974913070244447
+    },
+    "validation": {
+      "loss": 0.017721096864768436
+    },
+    "seconds": 5.278167800001029
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 20,
+    "train": {
+      "loss": 0.016886991198573793
+    },
+    "validation": {
+      "loss": 0.017500945212585585
+    },
+    "seconds": 6.072558400001071
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 21,
+    "train": {
+      "loss": 0.016781909497720855
+    },
+    "validation": {
+      "loss": 0.01733304903762681
+    },
+    "seconds": 4.6295061000000715
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 22,
+    "train": {
+      "loss": 0.016726869216987066
+    },
+    "validation": {
+      "loss": 0.017409741369741303
+    },
+    "seconds": 8.148074000000634
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 23,
+    "train": {
+      "loss": 0.016683299747960907
+    },
+    "validation": {
+      "loss": 0.017150933612670217
+    },
+    "seconds": 15.45961139999963
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 24,
+    "train": {
+      "loss": 0.016594474473169873
+    },
+    "validation": {
+      "loss": 0.017164821533220156
+    },
+    "seconds": 15.354614300000321
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 25,
+    "train": {
+      "loss": 0.016549746660249574
+    },
+    "validation": {
+      "loss": 0.017183676410998616
+    },
+    "seconds": 14.992264100001194
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 26,
+    "train": {
+      "loss": 0.01647075636259147
+    },
+    "validation": {
+      "loss": 0.01705208073130676
+    },
+    "seconds": 13.28517550000106
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 27,
+    "train": {
+      "loss": 0.016442454306142672
+    },
+    "validation": {
+      "loss": 0.01703817987867764
+    },
+    "seconds": 12.964811700001519
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 28,
+    "train": {
+      "loss": 0.016383585241224085
+    },
+    "validation": {
+      "loss": 0.017051977955869265
+    },
+    "seconds": 12.837622900000497
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 29,
+    "train": {
+      "loss": 0.01634504280771528
+    },
+    "validation": {
+      "loss": 0.01700290102830955
+    },
+    "seconds": 13.087125099998957
+  },
+  {
+    "model": "LatentDecoder",
+    "epoch": 30,
+    "train": {
+      "loss": 0.016275903467621124
+    },
+    "validation": {
+      "loss": 0.016887033247521947
+    },
+    "seconds": 13.375821100000394
+  }
+]
