@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+FINAL_SOURCE_CODE/data/
+FINAL_SOURCE_CODE/runs/
+replayed_figures/
